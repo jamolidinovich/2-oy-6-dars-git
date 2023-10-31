@@ -1,0 +1,210 @@
+/*General styles*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Noto Sans;
+    font-size: 18px;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1180px;
+    width: 100%;
+
+}
+
+/*main styles*/ 
+.main {
+    background: #163A24;
+}
+.header{
+    padding: 20px;
+}
+
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo img{
+    width: 153px;
+    height: 58px;
+}
+
+.nav a{
+    margin-right: 24px;
+    color: white;
+    text-decoration: none;
+
+}
+.nav a:hover{
+    color: #198C36;
+}
+
+.nav .get-started{
+    margin-right: 0px;
+    padding: 15px 25px;
+    border-radius: 160px;
+    background: #198C36;
+    border: 1px solid #198C36 ;
+}
+.nav .get-started:hover{
+    border-color: white;
+    color: #198C36;
+    background-color: transparent;
+
+}
+
+.hero .container{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.hero.container img{
+    width: 758px;
+    height: 500px;
+}
+
+.hero .container h1{
+    color: #FBFAF7;
+    margin-bottom: 18px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 65.25px; /* 135.938% */
+}.hero .container p{
+    color: #FBFAF7;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+    width: 475px;
+}
+
+/*1 girls card*/
+.block .container .girls{
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.block .girls img{
+    width: 492px;
+    height: 510px;
+    margin-left: 70px;
+    margin-right: 90px;
+}
+
+.girls text{
+    display: flex;
+    width: 393.328px;
+    padding: 0px 19px 16px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 27px;
+
+}
+.text .footer{
+    color: #163A24;
+    font-family: Recoleta;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px; /* 112.5% */
+}
+
+.text .information{
+    color: #163A24;
+    font-size: 18px;
+   
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 27px;
+
+}
+
+/* boys cards css*/
+.block .container .boys {
+   display: flex;
+   height: 422px;
+   padding: 0px 98px 0px 98px ;
+   justify-content: center;
+   align-items: center;
+   gap: 98px;
+
+
+}
+
+.boys text{
+    color: #163A24;
+    font-size: 18px;
+    font-size: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+
+
+
+.text .h4{
+    color: #163A24;
+   
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px; /* 112.5% */
+}
+
+.text .pages{
+    color: #163A24;
+    
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+    margin-top: 27px;
+}
+ .boys img{margin-right: 35px;
+
+ }
+
+ /*bootom*/
+
+.mark{
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mark h1{
+    color: #163A24;
+    text-align: center;
+    font-family: Recoleta;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px; /* 112.5% */
+    margin-top: 66px;
+}
+
+.mark .lotip{
+    display: flex;
+    height: 59.391px;
+    padding: 0px 43.656px 0px 43.672px;
+    justify-content: center;
+    align-items: center;
+    gap: 86px;
+    margin-top: 66px;
+}
+
+
